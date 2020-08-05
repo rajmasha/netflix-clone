@@ -1,0 +1,48 @@
+
+.nav {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    z-index: 1000;
+    transition-timing-function: ease-in;
+    transition: all 0.3s;
+    align-items: center;
+}
+
+.navShowBg {
+    background-color: #111;
+}
+
+.netflix_logo {
+    object-fit: contain;
+    height: 20px;
+    margin-right: 200px;
+}
+
+
+.nav span {
+    margin: 0 7px;
+    visibility: hidden;
+    color: #fff;
+}
+
+.nav .show_item {
+    visibility: visible;
+}
+
+a, a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+.far, .fa-bookmark, .fas, .fa-heart {
+    font-size: 1.2rem;
+    /* color: #E6020C; */
+}
+
+.my_list {
+    right: 0;
+}

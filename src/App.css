@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #111;
+}
+
+.app {
+    background-color: #111;
+    padding-bottom: 30px;
+}
+
+.text-muted {
+    color: #d9dbde;
+}
+
+.netflix-btn {
+    cursor: pointer;
+    background: none;
+    color: #fff;
+    background-image: none;
+    border: 1px solid #d9dbde;
+    border-width: thin;
+    padding: 5px 20px;
+    margin: 10px 10px 10px 0;
+}
+
+.play-btn, .cancel-btn {
+    background-color: #c71d1d;
+    border: 1px solid #c71d1d;
+}
+
+.text-small {
+    font-size: 0.85rem;
+}
+
+.text-bold {
+    font-weight: 500;
+}
+
+.text-primary {
+    color: rgb(96, 216, 96);
+}
+
+

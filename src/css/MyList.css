@@ -1,0 +1,52 @@
+
+.mylist{
+    color: #fff;
+    margin-top: 80px;
+    padding: 40px;
+}
+
+.movie-list h2 {
+    margin-bottom: 20px;
+}
+
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.my_movie_holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+    padding: 0;
+}
+
+.my_movie_holder button {
+    width: 100%;
+    margin-right: 15px;
+}
+
+.my_movie_poster {
+    cursor: pointer;
+    width: 220px;
+    object-fit: contain;
+    max-height: 100px;
+    margin-bottom: 6px;
+    transition: transform 500ms;
+}
+
+.my_movie_poster:hover {
+    transform: scale(1.1);
+}
+
+.my_large_poster {
+    max-height: 240px;
+    width: 178px;
+    margin-right: 0px;
+}
+
+.my_movie_link {
+    width: 100%;
+}

@@ -1,0 +1,35 @@
+.row {
+    color: #fff;
+    margin-left: 20px;
+    padding: 0;
+    height: 220px;
+}
+
+.movie_section {
+    display: flex;
+    overflow-x: scroll;
+    padding: 20px 0;
+}
+
+.movie_section::-webkit-scrollbar {
+    display: none;
+}
+
+.movie_card {
+    margin: 0;
+    width: 220px;
+    transition: all 0.5s;
+}
+
+.movie_card:hover {
+    margin: 0 20px;
+    transform: scale(1.2);
+}
+
+.movie_poster {
+    cursor: pointer;
+    width: 220px;
+    padding: 2px;
+    margin: 0;
+    object-fit: contain;
+}

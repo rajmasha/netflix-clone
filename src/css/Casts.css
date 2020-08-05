@@ -1,0 +1,46 @@
+.casts_row {
+    color: #fff;
+    margin-left: 20px;
+}
+
+.casts_row h2 {
+    margin-left: 20px;
+}
+
+.cast_section {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 20px;
+    align-items: flex-start;
+}
+
+.cast_section::-webkit-scrollbar {
+    display: none;
+}
+
+
+.cast_holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 35px;
+    width: 120px;
+}
+
+.cast_image {
+    cursor: pointer;
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 130px;
+}
+
+.cast_holder > div {
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.cast_holder div p {
+    text-align: center;
+}
