@@ -32,7 +32,8 @@ function Nav({ alwaysVisible }) {
 
             <div className="nav_links">
                 <Link to="/">
-                    <img className="netflix_logo" src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Logo_Netflix.png" alt="Netflix Logo" />
+                    <img className="netflix_logo" src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix Logo" />
+                    {/* <h3 style={{ color: "#D81F27" }}>NETFLIX</h3> */}
                 </Link>
 
                 <Link to="/"><span className={`${show && "show_item"}`}>Home</span></Link>

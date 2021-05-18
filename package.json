@@ -41,7 +41,11 @@
   "main": "index.js",
   "devDependencies": {},
   "keywords": [
-    "netflix-clone", "reactjs", "themoviedb", "netflix", "clone"
+    "netflix-clone",
+    "reactjs",
+    "themoviedb",
+    "netflix",
+    "clone"
   ],
   "author": "Raj Asha",
   "license": "MIT"

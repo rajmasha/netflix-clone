@@ -28,6 +28,7 @@ function MovieHome() {
             <Row title="Action" url={requests.fetchActionMovies} mediaType={"movie"} />
             <Row title="Comedy" url={requests.fetchComedyMovies} mediaType={"movie"} />
             <Row title="Romance" url={requests.fetchRomanceMovies} mediaType={"movie"} />
+            <Row title="Thriller" url={requests.fetchThrillerMovies} mediaType={"movie"} />
         </div>
     )
 }

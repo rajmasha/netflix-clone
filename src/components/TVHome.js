@@ -28,7 +28,7 @@ function TVHome() {
             <Row title="Top Rated" url={requests.fetchTopRatedTV} mediaType={"tv"} />
             <Row title="Action" url={requests.fetchActionTV} mediaType={"tv"} />
             <Row title="Comedy" url={requests.fetchComedyTV} mediaType={"tv"} />
-            <Row title="Romance" url={requests.fetchRomanceTV} mediaType={"tv"} />
+            <Row title="Drama" url={requests.fetchDramaTV} mediaType={"tv"} />
         </div>
     )
 }

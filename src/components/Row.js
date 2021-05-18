@@ -22,7 +22,8 @@ function Row({ title, url, isLargeRow, mediaType }) {
             {movies.length > 0 && <h2>{title}</h2>}
             <div className="movie_section">
                     {movies.map(movie => {
-                        return (
+                        return (movie.backdrop_path) &&
+                        (
                             <div className="movie_card" key={movie.id}>
                                 <Link to={`/${mediaType}/${movie.id}`} className="movie_link">
                                     <img className={`movie_poster`}

@@ -15,7 +15,10 @@ function Banner ({ movie, mediaType }) {
     useEffect (() => {
         console.log("Movie changed");
         setTrailerUrl("");
-        let netflixMovies = JSON.parse(localStorage.getItem("netflix-movies"));
+
+        let netflixMovies = [];
+        if (localStorage.getItem("netflix-movies"))
+            netflixMovies = JSON.parse(localStorage.getItem("netflix-movies"));
 
         for (let i=0; i<netflixMovies.length; i++) {
             if (movie && netflixMovies[i].id === movie.id) {

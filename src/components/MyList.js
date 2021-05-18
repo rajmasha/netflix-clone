@@ -38,7 +38,8 @@ class MyList extends Component {
     componentDidMount () {
         window.scrollTo({ top: 0 });
         const showList = JSON.parse(localStorage.getItem("netflix-movies"));
-        this.fetchData(showList);
+        if (showList)
+            this.fetchData(showList);
     }
 
 

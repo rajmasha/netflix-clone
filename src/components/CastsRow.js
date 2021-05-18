@@ -10,7 +10,7 @@ function CastsRow({ casts }) {
             <div className="cast_section">
                 {casts.map(cast => {
                     return (
-                        <div className="cast_holder">
+                        <div className="cast_holder" key={cast.id}>
                             <div>
                                 <img className="cast_image"
                                     key={cast.id}
